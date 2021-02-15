@@ -1,4 +1,6 @@
 import React from "react";
+import Images from './Images';
+import Heading from "./Heading";
 
 function Cards(props) {
 console.log(props);
@@ -6,10 +8,10 @@ console.log(props);
     <>
       <div className="cards">
         <div className="card">
-          <img src={props.imgscr} alt="myPic" className="card_img" />
+          <Images img src={props.imgsrc}/>
           <div className="card_info">
             <span className="card_category">{props.title}</span>
-            <h3 className="card_title">{props.sname}</h3>
+            <Heading sname={props.sname}/>
             <a href={props.link} target="_blank" rel="noreferrer">
               <button>Watch Now</button>
             </a>
