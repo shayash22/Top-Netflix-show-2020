@@ -9,7 +9,7 @@ import "./index.css";
 ReactDOM.render(
   <>
     <h1 className="heading_style">List of top 5 Netflix series in 2020</h1>
-    {Sdata.map((val, index) => {
+    {Sdata.map((val) => {
       return (
         <Cards
           key={val.id}
