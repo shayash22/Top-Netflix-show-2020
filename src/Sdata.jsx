@@ -23,7 +23,7 @@ const Sdata = [
     {    
       id: 4,
       imgscr:"https://i.pinimg.com/originals/b2/00/00/b20000f92cc4d2a041bab857f72572c8.jpg",
-      title:"A Netflix Original series",
+      title:"Aamazon Original series",
       sname:"The Vampire Diaries ",
       link:"https://www.netflix.com/in/title/70143860",
     },
